@@ -1,0 +1,215 @@
+/* Todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Elementos com o ID "titulo" */
+#titulo {
+    font-family: sans-serif;
+        color: #002878;
+    margin-left: 0%;
+} 
+
+/* Elementos com o ID "nome" */
+#nome {
+    font-family: sans-serif;
+    color: #002878;
+    
+} 
+
+/* Elementos com o ID "siap" */
+#siap {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+} 
+
+/* Elementos com o ID "ano" */
+#ano {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+   
+} 
+
+/* Elementos com o ID "apartirData" */
+#apartirData {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+} 
+
+/* Elementos com o ID "datainicial_1" */
+#datainicial_1 {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+#check{
+    display: inline-block;
+}
+
+/* Elementos com o ID "datafinal_1" */
+#datafinal_1 {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* Elementos com o ID "qtdDias_1" */
+#qtdDias_1 {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* Elementos com o ID "datainicial_2" */
+#datainicial_2 {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* Elementos com o ID "datafinal_2" */
+#datafinal_2 {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* Elementos com o ID "qtdDias_2" */
+#qtdDias_2 {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* Elementos com o ID "data" */
+#data {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* Elementos com o ID "just" */
+#just {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+#check{
+    display: inline-block;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* Elemento de tag <body> */
+body{
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #323232;
+    margin-left: 36%;
+    margin-top: 5%;
+    justify-content: center;
+    min-width: 100vw;
+}
+/* Elementos de tags <body>, <input>, <Select> e <button> */
+input, select, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #323232;
+    border-radius: 5px;
+}
+
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.2em;
+    color: #323232;
+    display: block;
+}
+
+/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+/* Elementos de classe "campo" das tags <input> com atributo number, date, text, siape  da tag <select>*/
+.campo input[type="number"], .campo input[type="date"], .campo input[type="siape"],.campo input[type="text"],.campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #323232;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+/* Elementos de classe "campo" de tag <select> e <option>*/
+.campo select option {
+    padding-right: 1em;
+}
+
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #ccd7ee;
+}
+
+/* Elemento de classe "botao" */
+.botao {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    background: #002878;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #323232;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select{
+    cursor: pointer;
+}

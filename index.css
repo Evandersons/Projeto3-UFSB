@@ -1,0 +1,105 @@
+/* Todos os elementos da página */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+}
+
+/* Elementos com o ID "titulo" */
+#titulo {
+    font-family: sans-serif;
+    color: #002878;
+    margin-left: 0%;
+}
+
+/* Foramatação do estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff; 
+}
+
+/* Centralizando o conteúdo */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ajustes Responsivos */
+@media screen and (max-width: 768px) {
+    /* Ajuste do layout para tela pequena */
+    .campo {
+        width: 100%;
+    }
+}
+
+/* Estilo do conjunto de campos */
+.grupo {
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #323232;
+}
+
+/*Estilo dos subtitulos*/
+#subtitulo, #subtitulo2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #002878;
+}
+
+/* Estilo da label */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilo dos input e área de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo do botão */
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #002878;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #323232;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+/* Estilo da área de texto grande */
+#textoGrande {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+/* Media querie*/
+@media screen and (min-width: 1200px) {
+}
